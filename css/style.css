@@ -64,3 +64,35 @@ button {
 	border-radius: 15px;
 	margin-bottom: 20px;
 }
+
+.product-item p{
+    color: grey;
+    margin: 10px 0 15px;
+}
+
+.product-item span{
+    display: inline-block;
+    margin-bottom: 0px;
+    background-color: #220efa;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px){
+    #search {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #products {
+        justify-content: center;
+    }
+
+    .product-item {
+        margin: 15px ;
+    }
+
+}
